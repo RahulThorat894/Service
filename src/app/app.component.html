@@ -1,0 +1,20 @@
+<div class="Baground">
+<h1>App Componant</h1>
+ <ul>
+
+  <li *ngFor="let user of users1">{{user.email}}</li>
+ </ul>
+</div>
+<app-footer></app-footer>
+<app-top></app-top>
+<div class="link">
+<ul>
+    <li><a routerLink="admin/login">login</a></li>
+    <li><a routerLink="admin/add">Addd</a></li>
+    <li><a routerLink="user/add">Login User</a></li>
+    <li><a routerLink="user/add">Login User</a></li>
+</ul>
+</div>
+<router-outlet></router-outlet>
+<app-footer [prant]="name"></app-footer>
+<h1>  </h1>

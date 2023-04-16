@@ -1,0 +1,25 @@
+.footer
+{
+position: absolute;
+/* background-color: skyblue; */
+width: 100%;
+color: #fff;
+padding: 5px;
+bottom: 70px;
+}
+.FooterBag
+{
+    
+    margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+background-color: yellow;
+color: black;
+
+}
+.FooterBag h1
+{
+    text-align: center;
+}
+
